@@ -275,6 +275,8 @@ a:hover {
     /*...what we do...*/
     .what_we_do{
         flex-wrap:wrap;
+        width:fit-content;
+        height:fit-content;
     }
     .icons {
         flex-wrap: wrap;
