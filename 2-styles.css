@@ -1,0 +1,373 @@
+/*...body ..*/
+body {
+    background-image: url("headphones_hero_1.jpg");
+    width: auto;
+    height: auto;
+    background-color:white;
+}
+/*... header ...*/
+.header {
+    margin-left: 201px;
+    margin-right:199px;
+    margin-top: 27.8px;
+    width:1000.392px;
+    height:32px;
+}
+/*..logo and links..*/
+.header_continer{
+    display: flex;
+    flex-wrap: warp;
+    justify-content: space-between;
+    align-items:center;
+    padding: 5px;
+    font-family:Source Sans Pro;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+}
+/*..logo..*/
+.logo img {
+    width: 161px;
+    height: 32;
+}
+/*...links...*/
+.header_link
+{
+    width: 255px;
+    height:15px;
+}
+.header-link a
+{
+    color:white;
+    text-decoration: none;
+    margin-right: 41px;
+}
+a:hover {
+    color: #FF6565;
+}
+/*...dropdown list for pc ..*/
+.dropdown {
+    display: none;
+}
+/*......first section......*/
+.main
+{
+    
+    margin-left: 382px;
+    margin-right: 381px;
+    margin-top: 300px;
+    margin-bottom: 115px;
+    width: 637px;
+    height: 313px;
+}
+.main_continer{
+    color: white;
+    font-family:Source Sans Pro;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main_continer h1
+{
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 1px;
+}
+.main_continer h4
+{
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 1px;
+    margin-bottom: 20px;
+}
+/*...button...*/
+.button {
+    width: 162px;
+    height: 44px;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    border: none;
+    border-radius: 22px;
+    background-color: #FF6565;
+    color:white;
+    font-family:Source Sans Pro;
+    text-align:center;
+    font-size: 14px;
+    transition-duration: 0.4s;
+}
+.button:hover {
+    color:white;
+    opacity: 0.9;
+    background-color: #e25353; 
+}
+.main_continer p
+{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 16px;
+    font-weight:400;
+    line-height: 26px;
+}
+/*...what we do section...*/
+/*... for icons...*/
+[class^="holberton_school-icon-"], [class*=" holberton_school-icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'holberton_school-icon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .holberton_school-icon-ic_sound:before {
+    content: "\e90e";
+  }
+  .holberton_school-icon-ic_video:before {
+    content: "\e910";
+  }  
+.holberton_school-icon-ic_hearing:before {
+    content: "\e909";
+  }
+  .holberton_school-icon-ic_music:before {
+    content: "\e90d";
+  }
+/*...Title...*/
+.what_we_do {
+    width:fit-content;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    color: black;
+    font-family:Source Sans Pro;
+    gap: 120px;
+}
+.title {
+    width: 637px;
+    height: 184px;
+    margin-left:382px;
+    margin-right: 379px;
+    margin-top: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+}
+.title h1 {
+    font-size:32px;
+    font-weight: 600;
+}
+.title p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+/*...icon...*/
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    margin-left: 200px;
+    margin-right:198px;
+    text-align: center;
+    gap: 58px;
+}
+
+.icons span {
+    color: #ff6565;
+    font-size: 100px;
+    font-weight: 250;
+}
+.icons h2 {
+    font-size: 18px;
+    font-weight: 600;
+}
+.icons p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+}
+/*.....Our results speak for themselves section.....*/
+.our_result {
+    width: 1400px;
+    height: 650px;
+    background-image: url("headphones_hero_2.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:white;
+    font-family:Source Sans Pro;
+    gap: 56px;
+}
+.our {
+    
+    margin-left: 550px;
+    margin-right: 281px;
+    margin-top: 141px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.our h1 {
+    font-size:32px;
+    font-weight: 600;
+}
+.our p {
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 26px;
+}
+.our_images {
+    display:flex;
+    flex-direction: row;
+    margin-left: 507px;
+    margin-right:206px;
+    margin-bottom: 100px;
+    gap: 76px;
+}
+.our_images img {
+    width: 190px;
+    height: 190px;
+}
+.our_image {
+    position: relative;
+    text-align: center;
+    color:white;
+}
+.our_image h1 {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 46px;
+    font-weight: 700;
+}
+.our_image p {
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+    font-weight: 400;
+}
+/*... phone section ...*/
+@media screen and (max-width: 480px){
+    body {
+        width: auto;
+        height: auto;
+        background-image: url("headphones_hero_1.jpg");
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .header {
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .header-link {
+        display: none;
+    }
+    .header_continer {
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 100px
+    }
+    .main {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 250px;
+        margin-bottom: 106px;
+        margin-left: 220px;
+        margin-right: 9px;
+            }
+    
+    .main_continer{
+
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    /*...dropdown for mobile...*/
+    .dropdown {
+        display: inline;
+        position: relative;
+    }
+    .dropdown a {
+        color: white;
+        text-decoration: none;
+        
+    }
+    .dropdown_button {
+        display: block;
+        position: relative;
+        &:hover {
+            background-color: white;
+        }
+        &:focus {
+            background-color: ghostwhite;
+        & + .dropdown_list {
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+    }
+    .dropdown_list {
+        position: absolute;
+        min-width: 500px;
+        padding-right: 450px;
+        padding-left:180px;
+        padding-top:20px;
+        line-height: 40px;
+        list-style-type: none;
+        visibility: hidden;
+        opacity: 0;
+        transition-property: opacity, visibility;
+        transition-duration: 500ms;
+        li {
+            display:block;
+        }
+    }
+    /*...what we do...*/
+    .what_we_do{
+        flex-wrap:wrap;
+        width:fit-content;
+        height:fit-content;
+    }
+    .icons {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    /*....our result section on phone....*/
+    .our_result {
+        flex-wrap: wrap;
+        width:fit-content;
+        height:fit-content;
+        
+    }
+    .our {
+        flex-wrap: wrap;
+        margin-left: 200px;
+        margin-right: 180px;
+    }
+    .our_images {
+        flex-direction: column;
+        margin-left: 98px;
+        margin-right: 96px;
+        margin-bottom: 50px;
+
+    }
+}
+
+
