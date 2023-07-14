@@ -273,10 +273,10 @@ a:hover {
     font-family:source sans pro;
     
 }
+/*.... animation chnaging color of some part...*/
 @keyframes contact_us {
     from {background-color: white;}
     to {background-color: aquamarine;}
-
 }
 .contact_us1 {
     display:flex;
