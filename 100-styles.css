@@ -1,0 +1,136 @@
+
+/*.....Our results speak for themselves section.....*/
+.our_result {
+    width: 1600px;
+    height: 850px;
+    background-image: url("headphones_hero_2.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:white;
+    font-family:Source Sans Pro;
+    gap: 56px;
+}
+.our {
+    
+    margin-left: 550px;
+    margin-right: 281px;
+    margin-top: 141px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.our h1 {
+    font-size:32px;
+    font-weight: 600;
+}
+.our p {
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 26px;
+}
+.our_images {
+    display:flex;
+    flex-direction: row;
+    margin-left: 507px;
+    margin-right:206px;
+    margin-bottom: 100px;
+    gap: 76px;
+}
+.our_images img {
+    width: 190px;
+    height: 190px;
+}
+.pentagon {
+    position: absolute;
+    top:70%;
+    left:25%;
+    transform: translate(-50%, -50%);
+    height: 0;
+    width: 100px;
+    border-top: 100px solid #ff6565;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    text-align: center;
+    color:white;
+}
+.pentagon:after{
+    position: absolute;
+    content: '';
+    border-bottom: 100px solid #ff6565;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    bottom: 100px;
+    left: -50px;
+  }
+  .pentagon1 {
+    position: absolute;
+    top:70%;
+    left:40%;
+    transform: translate(-50%, -50%);
+    height: 0;
+    width: 100px;
+    border-top: 100px solid #ff6565;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    text-align: center;
+    color:white;
+}
+.pentagon1:after{
+    position: absolute;
+    content: '';
+    border-bottom: 100px solid #ff6565;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    bottom: 100px;
+    left: -50px;
+  }
+  .pentagon2 {
+    position: absolute;
+    top:70%;
+    left:55%;
+    transform: translate(-50%, -50%);
+    height: 0;
+    width: 100px;
+    border-top: 100px solid #ff6565;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    text-align: center;
+    color:white;
+}
+.pentagon2:after{
+    position: absolute;
+    content: '';
+    border-bottom: 100px solid #ff6565;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    bottom: 100px;
+    left: -50px;
+  }
+  .pentagon3 {
+    position: absolute;
+    top:70%;
+    left:70%;
+    transform: translate(-50%, -50%);
+    height: 0;
+    width: 100px;
+    border-top: 100px solid #ff6565;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    text-align: center;
+    color:white;
+}
+.pentagon3:after{
+    position: absolute;
+    content: '';
+    border-bottom: 100px solid #ff6565;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    bottom: 100px;
+    left: -50px;
+  }
+  
