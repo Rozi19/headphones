@@ -139,7 +139,7 @@ a:hover {
   }
 /*...Title...*/
 .what_we_do {
-    width:fit-content;
+    width: 1600px;
     height: 700px;
     display: flex;
     flex-direction: column;
